@@ -1,0 +1,24 @@
+@import "../../base.scss";
+
+.viedohor {
+  border-bottom: 0.3px solid $border-color;
+  cursor: pointer;
+  display: none;
+}
+
+.videohor__left {
+  position: relative;
+}
+.videohor__duration {
+  position: absolute;
+  bottom: 0.3rem;
+  background: $border-color;
+  padding: 4px;
+  right: 0.3rem;
+}
+
+@media (min-width: 1000px) {
+  .viedohor {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+@import "../../base.scss";
+.videometadata {
+  &__top {
+    border-bottom: 1px solid $border-color;
+  }
+  &__channel {
+    border-bottom: 1px solid $border-color;
+
+    button {
+      cursor: pointer;
+      border: none;
+      background-color: rgb(253, 27, 27);
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      &:hover {
+        color: #fff;
+        opacity: 0.3;
+      }
+    }
+  }
+  &__description {
+    font-size: 0.9rem;
+    white-space: pre-line;
+    border-bottom: 0.2px solid $border-color;
+    .showMoreText {
+      text-decoration: none;
+      display: block;
+      color: white;
+      margin: 1rem 0;
+    }
+  }
+}
